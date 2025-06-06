@@ -1,0 +1,39 @@
+/* Custom styles for refined design */
+
+/* Ensures the body takes up at least the full viewport height */
+html, body {
+    height: 100%;
+}
+
+/* Apply Inter font family (already linked in HTML) */
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Table row styling for subtle stripes and hover effect */
+#crypto-table-body tr:nth-child(even) {
+    background-color: rgba(31, 41, 55, 0.6); /* Slightly lighter dark shade */
+}
+
+#crypto-table-body tr:hover {
+    background-color: rgba(75, 85, 99, 0.3); /* Lighter on hover for better interaction feedback */
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Specific styling for table cells */
+.px-6.py-3 {
+    padding: 0.75rem 1.5rem; /* Equivalent to p-3 px-6 */
+}
+
+/* Text color for positive/negative changes */
+.text-green-400 {
+    color: #4ade80; /* Tailwind green-400 */
+}
+
+.text-red-400 {
+    color: #f87171; /* Tailwind red-400 */
+}
+
+.text-gray-400 {
+    color: #9ca3af; /* Tailwind gray-400 */
+}
